@@ -156,6 +156,7 @@
 
 .section-3 {
     padding: 70px 0 100px 0;
+    scroll-margin-top: 100px;
 }
 
 .section-3 .inner-image {
@@ -235,6 +236,7 @@
     background-position: center center;
     background-size: cover;
     padding: 100px 0;
+    scroll-margin-top: 100px;
 }
 
 .section-5 .inner-head {
@@ -320,6 +322,7 @@
 .section-6 {
     padding: 100px 0;
     background-color: #ffffff;
+    scroll-margin-top: 100px;
 }
 
 .section-6 .inner-head {
@@ -409,6 +412,7 @@
 .section-7 {
     padding: 100px 0;
     background-color: var(--bg-1);
+    scroll-margin-top: 100px;
 }
 
 .section-7 .inner-head {
@@ -495,6 +499,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    scroll-margin-top: 100px;
 }
 
 .section-8 .inner-content {
@@ -538,6 +543,7 @@
 
 .section-9 {
     padding: 100px 0;
+    scroll-margin-top: 100px;
 }
 
 .section-9 .inner-head {
@@ -595,6 +601,7 @@
 .section-10 {
     padding: 100px 0;
     background-color: var(--bg-1);
+    scroll-margin-top: 100px;
 }
 
 .section-10 .inner-head {
