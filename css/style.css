@@ -67,7 +67,7 @@
 }
 
 .section-1 .inner-main {
-    max-width: 500px;
+    max-width: 700px;
     margin: 0 auto;
     text-align: center;
 }
@@ -160,13 +160,14 @@
 }
 
 .section-3 .inner-image {
-    padding: 0 17%;
+    padding: 0 5%;
     margin-bottom: 20px;
 }
 
 .section-3 .inner-image img {
     max-width: 100%;
     height: auto;
+    border-radius: 10px;
 }
 
 .section-3 .inner-content .inner-title {
@@ -181,6 +182,7 @@
     margin-bottom: 30px;
     color: var(--color-text-2);
 }
+
 
 @media (max-width: 991.98px) {
     .section-3 .inner-image {
@@ -197,12 +199,13 @@
 .section-4 .inner-image {
     /* padding: 0 17%; */
     text-align: right;
-    padding: 0 15%;
+    padding: 0 5%;
 }
 
 .section-4 .inner-image img {
     max-width: 100%;
     height: auto;
+    border-radius: 10px;
 }
 
 .section-4 .inner-content .inner-title {
@@ -254,7 +257,7 @@
     font-size: 15px;
     margin: 0 auto 40px auto;
     color: #fff;
-    max-width: 50%;
+    max-width: 70%;
     letter-spacing: 0.25px;
     line-height: 26px;
 }
@@ -293,9 +296,18 @@
     cursor: pointer;
 }
 
+.section-5 .inner-box .inner-icon {
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover;
+    overflow: hidden; */
+}
+
 .section-5 .inner-box .inner-icon img {
     width: 100%;
     height: 100%;
+    object-fit: contain;
+    overflow: hidden;
 }
 
 .section-5 .inner-box .inner-title-icon {
@@ -391,6 +403,7 @@
     width: 100%;
     height: 100%;
     border-radius: 50%;
+    object-fit: cover;
 }
 
 .section-6 .inner-box .inner-inf .inner-text {
@@ -574,15 +587,16 @@
     margin-bottom: 40px;
 }
 
-/* .section-9 .inner-box .inner-image {
-    width: 370px;
+.section-9 .inner-box .inner-image {
+    width: 350px;
     height: 220px;
-} */
+}
 
 .section-9 .inner-box .inner-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 10px;
 }
 
 .section-9 .inner-box .inner-title {
@@ -689,3 +703,16 @@
     letter-spacing: 0.88px;
     text-transform: uppercase;
 }
+
+
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
